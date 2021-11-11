@@ -1,0 +1,24 @@
+{
+  "name": "project-concordia-6461-lab2",
+  "version": "1.0.0",
+  "description": "In this project, I created a command line file server application (using the 'net' library of Node.js) which serves HTTP POST and GET requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/royo-a/project-concordia-6461-lab2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/royo-a/project-concordia-6461-lab2/issues"
+  },
+  "homepage": "https://github.com/royo-a/project-concordia-6461-lab2#readme",
+  "type": "module",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
