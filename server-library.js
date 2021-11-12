@@ -14,7 +14,6 @@ const changeAuthorizedDirectory = (serverProperties) => {
   return (newDirectory) => {
     // Add '.' in front if not present
     serverProperties.directory = "." + newDirectory;
-    console.log(serverProperties.directory);
   };
 };
 

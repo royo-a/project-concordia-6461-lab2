@@ -57,10 +57,10 @@ rl.on("line", (line) => {
         isVerbose = true;
       } else if (input === "-d") {
         changeServerAuthorizedDirectory(splitInputArray[index + 1]);
-        verboseString += `New directory: ${splitInputArray[index + 1]}. `;
+        verboseString += `New directory: ${serverProperties.directory}. `;
       } else if (input === "-p") {
         changeServerPort(serverProperties, Number.parseInt(splitInputArray[index + 1]));
-        verboseString += `New port: ${splitInputArray[index + 1]}.`;
+        verboseString += `New port: ${serverProperties.port}.`;
       }
     });
 

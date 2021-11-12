@@ -1,0 +1,16 @@
+Start client and server
+
+Demo get request:
+
+1. httpc get -v http://localhost:8080/file.txt (get file)
+2. httpc get -v http://localhost:8080/my/file.txt (unauthorized access)
+3. httpc get -v http://localhost:8080 (directory print)
+
+Demo directory change:
+1. httpfs -v -d /my
+
+Demo post request:
+1. httpc post -v -f file.txt http://localhost:8080/newfile.txt
+
+Demo port change:
+1. httpfs -v -p 8082
